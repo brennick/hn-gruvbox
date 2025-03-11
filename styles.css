@@ -26,16 +26,14 @@ body {
 }
 
 /* Links */
-a:link {
+a:link,
+a:visited {
   color: var(--fg0) !important;
 }
 
-a:visited {
-  color: var(--gray) !important;
-}
-
 /* Story titles */
-.titleline a:link {
+.titleline a:link,
+.titleline a:visited {
   color: var(--orange) !important;
 }
 
